@@ -1,0 +1,29 @@
+body{
+   background: linear-gradient(to right,silver,silver);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#navid{
+   padding:10px;
+   background-color: black;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 1em;
+    padding: 20%;
+}
+
+#carda{
+    flex : 0 1 24%;
+    padding : 10px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 300px;
+    gap: 1em;  
+}
